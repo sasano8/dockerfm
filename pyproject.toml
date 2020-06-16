@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dockerfm"
-version = "0.0.1.post28.dev0+204806c"
+version = "0.0.2"
 # authors = ["sasano8 <y-sasahara@ys-method.com>"]
 authors = ["sasano8"]
 description = "This is a sample package for publish to test pypi"
