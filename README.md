@@ -5,6 +5,8 @@ pypiへpythonパッケージを公開するためのサンプルプロジェク�
 また、将来的にpoetry-dynamic-versioningが提供する機能（gitのtagを利用した動的なバージョン発行）が、
 poetryに取り込まれた場合、poetry-dynamic-versioningは不要となります。
 
+- [compose-spec)](https://github.com/compose-spec/compose-spec)
+
 
 # 前提環境
 - [x] pip
