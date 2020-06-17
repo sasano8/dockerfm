@@ -61,7 +61,8 @@ def output_config_yml(PROJECTNAME: str, USERNAME: str):
 
     os.makedirs(os.path.dirname(CI_PATH))
     with open(CI_PATH, "w") as f:
-        yaml.dump(config_dic, f)
+        # default_flow_style:出力形式が変わる。5.3からFalseが標準になり、5.3未満と互換性を維持するために指定する。
+        yaml.dump(config_dic, f, default_flow_style=False)
 
 
 def define_step(
