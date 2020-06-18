@@ -21,7 +21,7 @@ def dockerfile():
 
 def get_directories(target_dir_path):
     """指定したdirectoryに存在するdirectoryを返す"""
-    filenames = os.listdir(target_dir_path)
+    filenames = sorted(os.listdir(target_dir_path))
     filepaths = map(lambda name: os.path.join(target_dir_path, name), filenames)
     directories = filter(lambda filepath: os.path.isdir(filepath), filepaths)
 
